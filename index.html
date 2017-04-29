@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script src="js/jquery-3.1.0.js"></script>
+	</head>
+	<body>
+		<div class="header">
+			<div class="container">
+				<div class="header-top">
+					<ul>
+						<li><a href="#home">主页</a></li>
+						<li><a href="#about">关于我</a></li>
+						<li><a href="#experience">工作经历</a></li>
+						<li><a href="#assess">自我评价</a></li>
+						<li><a href="#contact">联系方式</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="banner">
+				<div class="h3_head">
+					<div class="head_img">照片</div>
+					<h3>欢迎来到我的主场</h3>
+					<p>Welcome To My World</p>
+				</div>
+				<p>奋斗令我们的生活充满生机，责任让我们的生命充满意义</p>
+			</div>
+		</div>
+		<div id="about">
+			<div class="container">
+				<h4>关于我</h4>
+				<div class="circle"><img src="img/circles.png" alt="" /> </div>
+				<div class="introduce">
+					<div class="message">
+						<div class="mes1">
+							<h5>个人基本信息</h5>
+							<span><strong>姓名:</strong>胡文君</span><br>
+							<span><strong>性别:</strong>女</span><br>
+							<span><strong>爱好:</strong>看书、听歌、运动</span><br>
+							<span><strong>性格:</strong>乐观、爱笑、双重性格、动静皆宜</span><br>
+							<span><strong>出生年月:</strong>1993.6</span><br>
+							<span><strong>我的家乡:</strong>山西省文水县</span><br>
+							<span><strong>现居住于:</strong>北京</span><br>
+							<span><strong>我的母校:</strong>山西工程职业技术学院 |大专</span><br>
+						</div>
+						<div class="mes2">
+							<h5>教育经历</h5>
+							<span><strong>2011.9-2013.6</strong>山西工程职业技术学院</span><br>
+							<span><strong>2016.1-2016.5年</strong>火星时代培训基地</span><br>
+							<span><strong>主修课程:</strong>html、css、js</span><br>
+							<span><strong>潮流框架:</strong>jQuary、Vue、angular、react、ajax、canvas、svg</span>
+							
+							<h5>求职意向</h5>
+							<span><strong>工作性质:</strong>全职</span><br>
+							<span><strong>期望职业:</strong>web前端开发</span><br>
+							<span><strong>工作地区:</strong>北京</span><br>
+							<span><strong>期望月薪:</strong>8k-1.2k</span><br>
+							<span><strong>目前状况:</strong>目前处于离职阶段，可立即上岗</span><br>
+						</div>
+					</div>
+				</div>
+				<div class="skill">
+					<div class="ican">
+						<p>html、css、js</p>
+						<div class="n1"></div>
+						<p>jQuary、angular、canvas、vue</p>
+						<div class="n2"></div>
+						<p>ps、react、ajax、canvas、svg </p>
+						<div class="n3"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	<div id="experience">
+		<h3>工作经历<br>
+			<img src="img/circles.png" alt="" />
+		</h3>
+		<div class="content">
+			<h4>工作描述</h4>
+			<p class="work">2016-2017.4  山西独易网络科技有限公司 ，担任前端开发</p>  
+			<p>1、负责相关产品的HTML/CSS代码编写></p>
+			<p>2、负责将UI设计师设计稿制作成符合要求的HTML代码</p>
+			<p>3、解决HTML代码不同浏览器的兼容性问题</p>
+			<p>4、使用Jquery框架，负责js交互需求的实现</p>
+			<p>5、维护及优化网站前端性能，提高用户体验</p>
+			<h4>参与项目</h4>
+			<p>1、参与360天擎系统的前端开发工作</p>
+			<p>2、参与山西恒业建筑安装工程有限公司网页制作等</p>
+		</div>
+	</div>
+		<div id="assess">
+			<h4>自我评价<br>
+				<img src="img/circles.png" alt="" />
+			</h4>
+			<p>一次偶然，开始接触并了解前端。从刚开始的懵懵懂懂，到现在对它了解越来越来越多;前端一直在不断并且快速的发展，在这一年多的时间里学习了自学了angular,react以及canvas/svg。喜欢不断码代码的感觉，特别是遇到问题解决它的时候。那样的自豪感一直支持我一路走到现在。对待工作一直认真负责，注重细节，对前端的知识会不断通过向有经验的前辈请教或者自己查资料的方式去了解，希望自己对前端有更系统的规划去火星培训学习，让自己对前端有了更深的认识，学无止境，我还需要更努力！</p>
+		</div>
+		<div id="contact">
+			<h4>联系方式</h4>
+			<p>tel:186****4622</p>
+			<p>email:3279***33@qq.com</p>
+			<ul class="icon">
+				<li class="icon1"></li>
+				<li class="icon1 icon2"></li>
+				<li class="icon1 icon3"></li>
+				<li class="icon1 icon4"></li>
+				<li class="icon1 icon5"></li>
+			</ul>
+			<script type="text/javascript">
+				var _width=document.documentElement.clientWidth||document.body.clientWidth;
+				var _icon=document.getElementById("contact").children[3];
+				_icon.style.marginLeft=(_width-_icon.offsetWidth)/2+20+"px";
+			</script>
+		</div>
+	</body>
+</html>
+<script type="text/javascript">
+	$(function(){
+		//窗口缩放
+		window.onresize=function(){
+			var _width=document.documentElement.clientWidth;
+       	 	document.documentElement.style.fontSize=_width/1300*100+'px';
+		}
+		//头部nav动画
+		$(".header-top a").each(function(i){
+			$(this).click(function(event){
+				$(this).addClass("clicked").siblings().removeClass("clicked");
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			})
+		})
+		
+
+	})
+				
+</script>
